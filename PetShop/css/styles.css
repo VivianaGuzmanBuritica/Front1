@@ -1,0 +1,28 @@
+*{
+    margin:auto;
+}
+
+.oferta{
+    background-color:#222222;
+    color:#ffff;
+    display:  flex;
+}
+
+.nav{
+    background-color: #F0A83E;
+    display:flex;
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.banner{
+    background-image:url('../img/banner.png');
+    height: 90vh;
+    background-size: cover;
+
+}
+

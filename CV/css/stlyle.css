@@ -1,0 +1,10 @@
+*{
+    margin: auto;
+    
+}
+
+.fotoPerfil{
+   width: 12%;
+   border-top-left-radius: 48%;
+   border-top-right-radius: 48%;
+}  

@@ -1,0 +1,37 @@
+body{
+    margin:auto;
+}
+header{
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+h1, h2{
+    color: #005677;
+    background-color: #C4C4C4;
+    word-spacing: 0.25em;
+    letter-spacing: 0.25em;
+}
+
+h3{
+    display: inline;
+    font-weight: bold;
+}
+
+section{
+    display: grid;
+}
+
+article{
+   display: inline-flex;
+}
+
+li{
+    list-style-type: none;
+}
+footer{
+    text-align: center;    
+    color:#ffff;
+    background-color:#005677;
+  
+}
