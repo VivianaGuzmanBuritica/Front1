@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
 box-sizing: border-box;
 margin:0;
+font-family:'Roboto';
 }
 
+main{
+    display:flex;
+    justify-content: space-evenly;
+}
 
 .descuento{
     padding:10px;
@@ -11,23 +17,29 @@ margin:0;
 
 .menu{
     background-color: #00669F;
-    height: 50px;
+    height: 80px;
     padding: 10px;
+    font-size: 30px;
+    box-shadow: gray 0px 5px 10px;
+    font-weight: lighter;
 }
 
 footer{
     background-color: #00669F;
+    color:#FFF9F9;
+    font-size: 16px;
+    padding: 20px;
  }
 
 .tarjeta{
     width:300px;
-    height: 500px;
+    height: 530px;
     margin:50px;
     background-color: #F3F3F3;
     position: relative;
     border-radius: 10px;
-    display: inline-block;
-  
+    box-shadow: gray 0px 10px 10px;
+     
 }
 
 .corazon{
@@ -40,18 +52,29 @@ footer{
     position:absolute;
     top: 120px;
     left: 90px;
-    border-radius: 50%;  
+    border-radius: 50%;
+    box-shadow: gray 0px 5px 10px;  
 }
 
  .tarjeta p{
-text-align: justify;
-position: absolute;
-top: 300px;
-padding:20px;
+    text-align: justify;
+    position: absolute;
+    top: 300px;
+    padding:20px;
 }
 
-h3{
+.tarjeta h3{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 30px; 
+}
+
+button{
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 10px 30px;
     position: absolute;
-    top: 270px;
-    left: 110px;
-    }
+    top: 450px;
+    left: 90px;
+    text-align: center;
+}
