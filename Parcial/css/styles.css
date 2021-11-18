@@ -10,43 +10,38 @@ main{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-/*header*/
 
 .descuento{
     padding:10px;
-    background-color: #1CD1B0; 
+    background-color: #1CD1B0;
+   
 }
 
 .menu{
     background-color: #00669F;
-    color:#FFF9F9;
-    height: 70px;
+    height: 80px;
     padding: 10px;
     font-size: 30px;
     box-shadow: gray 0px 5px 10px;
     font-weight: lighter;
 }
 
-.menu h1{
-    font-size: 30px;
-}
-
-/*main*/
+footer{
+    background-color: #00669F;
+    color:#FFF9F9;
+    font-size: 16px;
+    padding: 20px;
+ }
 
 .tarjeta{
     width:300px;
-    height: 580px;
+    height: 530px;
     margin:50px;
     background-color: #F3F3F3;
     position: relative;
     border-radius: 10px;
     box-shadow: gray 0px 10px 10px;
      
-}
-
-.fondo{
-    width: 300px;
-    border-radius: 10px 10px 0px 0px;
 }
 
 .corazon{
@@ -56,7 +51,6 @@ main{
 }
 
 .perfil{
-    width: 120px;
     position:absolute;
     top: 120px;
     left: 90px;
@@ -65,7 +59,6 @@ main{
 }
 
  .tarjeta p{
-    font-size: 14px;
     text-align: justify;
     position: absolute;
     top: 300px;
@@ -83,43 +76,7 @@ button{
     color: #F3F3F3;
     padding: 10px 30px;
     position: absolute;
-    top: 500px;
+    top: 450px;
     left: 90px;
     text-align: center;
-}
-
-/*footer*/
-
-footer{
-    display: flex;
-    justify-content: space-between;
-    background-color: #00669F;
-    color:#FFF9F9;
-    font-size: 16px;
-    padding: 20px;
-    
- }
-
- footer p{
-     width: 100%;
-     text-align: center;
- }
- footer img{
-     width: 100px;
-     position: relative;
- }
-
- /*Media Queries*/
-
- @media(min-width:793px){
-     .perfil2{
-        display: none;
-     }
- 
- }
-
- @media(max-width: 779px){
- .tarjeta2{
-    display: none;
-}
 }

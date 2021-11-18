@@ -2,30 +2,56 @@
 
 *{
     box-sizing: border-box;
-    margin:auto;
+    margin:0;
     font-family: 'Roboto';
 
 }
 
 /*menu*/
 
+.oferta p{
+   width: 100%;
+}
 .oferta{
     background-color:#222222;
     color:#ffff;
     display:  flex;
+    font-size: 15px;
+    padding:3px;
+    
 }
 
+.idioma{
+   display: flex;
+   justify-content: space-between;
+   justify-content: flex-end;
+   
+}
+
+.idioma p{
+    padding: 0px 10px; 
+}
 .nav{
     background-color: #F0A83E;
     display:flex;
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px 10px 15px;
 }
 
 nav ul{
     display:flex;
     list-style-type: none;
-    padding: 10px;
+    width: 500px;
+    padding: 0px 10px;
+    color:#ffff;
+    justify-content: space-between;
 }
 
+nav ul li{
+    padding: 10px;
+}
 /*banner*/
 
 .banner{
@@ -108,7 +134,9 @@ nav ul{
 .productos{
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
+    margin: 20px;
+   
 }
 
 .productos article img{
@@ -127,4 +155,62 @@ nav ul{
 
 .productos article p{
     color:#F0A83E;
+}
+/*contactenos*/
+
+.contactenos h2{
+    text-align: center;
+    color:#3C2313;
+    font-size: 25px;
+    margin-top: 60px;
+}
+.contactenos form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom:40px;
+}
+
+.contactenos form .datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contactenos form input{
+    margin: 10px;
+    background-color: #3C2313;
+    color:#FFFFFF;
+    font-size: 11px;
+    width: 340px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;   
+}
+.contactenos form button{
+    font-size: 16px;
+    color:#FFFFFF;
+    width: 110px;
+    padding: 9px;
+    border: none;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.contactenos form .reset{
+    background-color: #8A8787;
+}
+
+.contactenos form .enviar{
+    background-color: #F0A83E;
+}
+
+/*suscribirse*/
+
+footer .suscribirme{
+    background-color: #F0A83E;
+    display:flex;
+    padding:20px;
 }
