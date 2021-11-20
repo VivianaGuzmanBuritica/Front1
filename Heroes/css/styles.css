@@ -35,7 +35,6 @@ main{
 
 .tarjeta{
     width:300px;
-    height: 580px;
     margin:50px;
     background-color: #F3F3F3;
     position: relative;
@@ -44,9 +43,11 @@ main{
      
 }
 
+
 .fondo{
-    width: 300px;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
+    
 }
 
 .corazon{
@@ -55,36 +56,39 @@ main{
     left: 20px;
 }
 
-.perfil{
+.perfil, .perfil2{
+    
     width: 120px;
-    position:absolute;
-    top: 120px;
-    left: 90px;
+    position:relative;    
+    left: calc(50% - (120px/2));
+    top: calc(0% - (120px/2));
     border-radius: 50%;
     box-shadow: gray 0px 5px 10px;  
 }
 
+.tarjeta h3{
+    position: relative;
+    bottom: 8%;
+    text-align: center;
+    font-size: 30px; 
+}
  .tarjeta p{
     font-size: 14px;
     text-align: justify;
-    position: absolute;
-    top: 300px;
+    position: relative;
+    bottom: 9%;
     padding:20px;
-}
-
-.tarjeta h3{
-    text-align: center;
-    padding-top: 70px;
-    font-size: 30px; 
 }
 
 button{
     background-color: #00669F;
+    border:none;
+    border-radius: 10%;
     color: #F3F3F3;
     padding: 10px 30px;
-    position: absolute;
-    top: 500px;
-    left: 90px;
+    position: relative;
+    bottom: 8%;
+    left: calc(50% - (120px/2));
     text-align: center;
 }
 
@@ -106,20 +110,35 @@ footer{
  }
  footer img{
      width: 100px;
+     height: 27px;
      position: relative;
  }
 
  /*Media Queries*/
 
- @media(min-width:793px){
-     .perfil2{
-        display: none;
-     }
- 
+ @media(max-width: 1600px){
+    .tarjeta {
+        width: 30%;
+   
+    }
+
+}
+
+ @media(max-width: 1200px){
+    .tarjeta{
+        width: 35%;
+   
+    }
  }
+   
 
  @media(max-width: 799px){
- .tarjeta2{
-    display: none;
-}
+
+    .tarjeta{
+        width: 50%;
+    }
+    .tarjeta2{
+        display: none;
+        
+    }
 }
