@@ -213,17 +213,41 @@ nav ul li{
 
 .contactenos form .enviar{
     background-color: #F0A83E;
-}
+} 
 
 /*suscribirse*/
 
 footer .suscribirme{
     background-color: #F0A83E;
     display:flex;
+    justify-content: space-between;
     padding:20px;
 }
 
+footer .inputCorreo{
+   border: none;
+   padding: 5px;
+   border-radius: 10px;
+}
+/*
+footer .inputCorreo[type="password"] {
+    color: red;
+    -webkit-text-security: square;
+   }
+*/
+
+ footer .botonSuscribirme{
+    border-radius: 10px;
+    background-color: #3C2313;
+    color: #FBFAF6;
+    border: none;
+    padding: 5px;
+ }
+
+ 
+
 /*footer*/
+
 
 footer .localidad{
     background-color: #3C2313;
