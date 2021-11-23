@@ -1,0 +1,38 @@
+form{    
+    display:flex;
+    flex-direction: column;
+    margin: 20px
+}
+
+form input,  select{
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 5px;
+}
+
+form .enviar{
+    left: 0%;
+    bottom: 0%;
+    margin-bottom: 20px;
+}
+form .reset{
+  background-color:#8888;
+  
+}
+
+legend{
+    font-size:52px;
+    font-weight:bold;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+ 
+}
+
+.registrarme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

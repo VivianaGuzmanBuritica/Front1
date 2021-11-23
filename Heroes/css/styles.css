@@ -5,6 +5,7 @@ margin:0;
 font-family:'Roboto';
 }
 
+
 main{
     display:flex;
     justify-content: space-evenly;
@@ -83,7 +84,7 @@ main{
 button{
     background-color: #00669F;
     border:none;
-    border-radius: 10%;
+    border-radius: 10px;
     color: #F3F3F3;
     padding: 10px 30px;
     position: relative;
