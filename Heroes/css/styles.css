@@ -5,6 +5,12 @@ margin:0;
 font-family:'Roboto';
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 main{
     display:flex;
@@ -31,6 +37,25 @@ main{
 .menu h1{
     font-size: 30px;
 }
+
+.links{
+    background-color:#001D2D;
+    color:#F3F3F3;
+}
+
+.links ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}  
+
+.links li a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #F3F3F3;
+
+}
+
 
 /*main*/
 
@@ -93,16 +118,27 @@ button{
     text-align: center;
 }
 
+.mas{
+    height: 100px;
+    background-color:#00669F ;
+    padding: 30px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    z-index: 1;
+}
+
 /*footer*/
 
 footer{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #00669F;
     color:#FFF9F9;
     font-size: 16px;
     padding: 20px;
-    
  }
 
  footer p{
@@ -118,28 +154,23 @@ footer{
  /*Media Queries*/
 
  @media(max-width: 1600px){
-    .tarjeta {
+    .tarjeta{
         width: 30%;
-   
     }
-
-}
+ }
 
  @media(max-width: 1200px){
     .tarjeta{
         width: 35%;
-   
     }
  }
-   
 
  @media(max-width: 799px){
-
     .tarjeta{
         width: 50%;
     }
     .tarjeta2{
         display: none;
-        
     }
+   
 }
