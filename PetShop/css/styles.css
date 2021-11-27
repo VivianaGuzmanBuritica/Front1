@@ -273,7 +273,7 @@ footer .localidad .localidad2 span{
     color:#F0A83E;
  }
  
-.localidad article{
+.localidad .burbujas{
     display:flex;
 }
 .icono{
